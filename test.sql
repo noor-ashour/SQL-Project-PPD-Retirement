@@ -1,0 +1,10 @@
+SELECT TOP (1000) [system_id]
+      ,[RetirementSystemName]
+      ,[RetirementSystemDesc]
+      ,[RetirementSystemStateAbbrev]
+      ,[NumberofPlans]
+      ,[sys_DataStartYear]
+      ,[sys_DataEndYear]
+      ,[ppd_system_directory_listed]
+  FROM [PPDRetirementSystems].[dbo].[RetirementSystems]
+  
